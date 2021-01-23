@@ -1,0 +1,131 @@
+body {
+
+    /* Ubicación de la imagen */
+    
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);  
+  }
+ 
+ 
+.subtitulo{
+    text-align: center;
+    font-size:100%;
+    Font-family: 'Domine', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Playfair Display', serif;
+   
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1%;
+    min-width: 300px;
+  
+}
+.titulo{
+    Font-family: 'Domine', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Playfair Display', serif;
+    text-align:left;
+    font-size:150%;
+    padding-top: 2%;
+    
+    max-width: 100%;
+    text-align: center;
+   
+}
+.env
+{
+    padding-top: 4%;
+padding-left:5% ;
+padding-right: 5%;
+width: 100%;
+background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+
+
+} .uno{
+    float: left;
+    padding-left: 1%;
+     margin: 1%;
+     min-width: 30%;
+     
+     max-width: 400px;
+ }
+ .uno1{
+    margin: 1%;
+     float: left;
+    min-width: 30%;
+  
+    max-width: 400px;
+}
+.uno2{
+ 
+    margin: 1%;
+     float: left;
+    min-width: 30%;  
+    max-width: 400px;
+   
+}
+ 
+ 
+.tod{
+    
+    background-color: linear-gradient(to top, rgb(206, 222, 231) 0%, #e2ebf0 100%);
+}
+.burbuja{
+  
+    border-radius: 50%;
+    background-image: url(bur.png);
+    position: absolute;
+    opacity: .3;
+    bottom:  0;
+ 
+    animation: burbujas 4s linear infinite ;
+}
+.burbuja:nth-child(1){
+    width: 60px;
+    height:60px;
+    left: 5%;
+    animation-duration: 2s;
+}
+.burbuja:nth-child(2){
+    width: 60px;
+    height:60px;
+    left: 35%;
+    animation-duration: 4s;
+}
+.burbuja:nth-child(3){
+    width: 60px;
+    height:60px;
+    left: 55%;
+    animation-duration: 1s;
+}
+.burbuja:nth-child(4){
+    width: 60px;
+    height:60px;
+    left: 75%;
+    animation-duration: 2.4s;
+}
+@keyframes burbujas {
+0%{
+    bottom: 0;
+    opacity: 0;
+}
+50%{
+    opacity: .4;
+}
+100%{
+    bottom: 100vh;
+    opacity: 0;
+}
+}
+html{
+    scroll-behavior: smooth;
+}
+.barra{
+ 
+width: 100%;
+ 
+ 
+background-color: azure;
+text-align-last: center;
+}
